@@ -1,14 +1,14 @@
-// using digitial pin 2 for the output of the hall sensor
+// using digitial pin 2 to read the output of the hall sensor
 int hall_pin = 2;
 
-//settingn number of trips for the RPM reading
+//setting number of trips of the sensor for new RPM reading
 float hall_thresh = 25;
 
 void setup() {
   // initialsiing serial communication
   Serial.begin(9600);
 
-  // making the happ pin an input
+  // making the hall pin an input
   pinMode(hall_pin, INPUT); 
 
   // printing head of csv
