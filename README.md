@@ -1,3 +1,3 @@
 # Arduino-Code
 
-A repository containing all of my ardunio code for various data-logging needs.
+A repository containing ardunio code for various data-logging needs.
